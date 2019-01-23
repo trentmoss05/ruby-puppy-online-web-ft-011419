@@ -8,4 +8,7 @@ class Dog
     @@all << self
   end
 
+  def self.all
+    @@all.collect {|dog| puts dog }
+  end
 end
