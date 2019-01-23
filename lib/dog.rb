@@ -9,6 +9,6 @@ class Dog
   end
 
   def self.all
-    @@all.collect {|dog| puts dog/n }
+    @@all.each {|dog| puts dog }
   end
 end
